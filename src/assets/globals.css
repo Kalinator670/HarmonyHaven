@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.a {
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.h1 {
+  font-size: 34px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.h2 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+:root {
+  --black: #000;
+  --pink: #E94057;
+  --light-pink: #FDECEF;
+  --orange: #F27121;
+  --purple: #8A2387;
+  --gray: #999999;
+  --dark-gray: #4D4D4D;
+  --light-gray: #E8E6EA;
+  --white: #fff;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+  margin: 128px 40px 0 40px;
+  display: grid;
+  place-items: center;
+}
+
+.text {
+  margin-top: 78px;
+  display: grid;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.btnGoogle {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.googleIcon {
+  padding: 12px;
+  border: 1px var(--light-gray) solid;
+  border-radius: 15px;
+}
+
+.link {
+  margin-top: 10px;
+  text-align: center;
+  color: var(--black);
+  font-weight: 700;
+}
+
+@media (max-width: 395px) {
+  .googleIcon {
+    display: none;
+  }
+}
